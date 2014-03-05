@@ -9,6 +9,7 @@ gem 'bcrypt-ruby',               '~> 3.0.0'
 gem 'will_paginate',             '~> 3.0.4'
 gem 'braintree'
 gem 'devise'
+gem 'unicorn'
 
 group :development do
   gem 'debugger'
