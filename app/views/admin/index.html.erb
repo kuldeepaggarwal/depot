@@ -1,0 +1,5 @@
+<h1>Welcome</h1>
+<p>It's <%= Time.now %></p>
+<h5>We have <%= pluralize(@total_orders,"order") %></h5>
+<%= render 'form' %>
+<p><%= will_paginate @orders %></p>

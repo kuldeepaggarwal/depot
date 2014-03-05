@@ -1,0 +1,28 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  title: MyString
+  description: MyText
+  image_url: MyString.jpeg
+  price: 9.99
+
+two:
+  title: "MacBook Pro with Retina Display"
+  description: "Retina display 15.4-inch (diagonal) LED-backlit display with IPS technology; 2880-by-1800 resolution at 220 pixels per inch with support for millions of colors Supported resolutions: 2880 by 1800 pixels (Retina); scaled resolutions: 1920 by 1200, 1680 by 1050, 1280 by 800, and 1024 by 640 pixels"
+  image_url: 5.jpg
+  price: 121000.00
+
+iphone:
+  title: "Iphone-3gs"
+  description: "iPhone 3GS embodies Apple’s continuing environmental progress."
+  image_url: 4.jpg
+  price: 20000.00
+
+ruby:
+  title: "Programming Ruby 1.9"
+  description: 
+    Ruby is the fastest growing and most exciting dynamic
+    language out there. If you need to get working programs
+    delivered fast, you should add Ruby to your toolbox.
+  price: 49.50
+  image_url: ruby.png

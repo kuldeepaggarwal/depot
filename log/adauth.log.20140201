@@ -1,0 +1,8 @@
+# Logfile created on 2013-12-24 12:16:47 +0530 by logger.rb/31641
+Loading new config
+Loading new config
+Loading new config
+Attempting to authenticate as n
+Searching for all "(objectClass=user)" where sAMAccountName = n
+Connecting to AD as "n"
+Loading new config

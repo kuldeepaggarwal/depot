@@ -1,0 +1,24 @@
+default_options: &default_options
+  adapter:  postgresql
+  encoding: unicode
+  username: postgres
+  password: root
+  pool: 5
+  host: localhost
+  timeout: 5000
+
+development:
+  <<: *default_options
+  database: depot_development
+
+test:
+  <<: *default_options
+  database: depot_test
+
+production:
+  <<: *default_options
+  database: depot_production
+
+staging:
+  <<: *default_options
+  database: depot_staging

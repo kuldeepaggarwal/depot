@@ -1,0 +1,31 @@
+test: &default
+
+  # Credentials for REST APIs
+  client_id: AdbapRD-IY8sn3hwDna4QPgCcVimUfS1HSRzDZkG8wXLGWe4X_TDlU9dQWqd
+  client_secret: EPt9xhAPVCVHW-_pVsWfa5JYYuLbQD9h11up-larKFx4xm73xpOghJQ3MZsD
+
+  # Mode can be 'live' or 'sandbox'
+  mode: sandbox
+
+  # Credentials for Classic APIs
+  app_id: APP-80W284485P519543T
+  # username: kd.engineer-facilitator_api1.yahoo.co.in
+  # password: 1367222720
+  # signature: A--8MSCLabuvN8L.-MHjxC9uypBtA8ufrWdAJ7Mae03CNsR4ffatp13O
+  # # With Certificate
+  # cert_path: "config/cert_key.pem"
+  sandbox_email_address: kd.engineer@gmail.com
+
+  # # IP Address
+  # ip_address: 127.0.0.1
+  # # HTTP Proxy
+  # http_proxy: http://proxy-ipaddress:3129/
+
+development:
+  <<: *default
+
+production:
+  <<: *default
+  mode: live
+  client_id: ""
+  client_secret: ""
